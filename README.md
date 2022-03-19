@@ -100,6 +100,9 @@ Given the customer doesn't have connectivity
 
 ### Load Feed From Cache Use Case
 
+#### Data:
+- Max age (7 days)
+
 #### Primary course:
 1. Execute "Load Image Feed" command with above data.
 2. System retrieves feed data from cache.
@@ -111,10 +114,11 @@ Given the customer doesn't have connectivity
 1. System delivers error.
 
 #### Expired cache course (sad path): 
-1. System delivers no feed images.
+1. System deletes cache.
+2. System delivers no feed items.
 
 #### Empty cache course (sad path): 
-1. System delivers no feed images.
+1. System delivers no feed items.
 
 ---
 
