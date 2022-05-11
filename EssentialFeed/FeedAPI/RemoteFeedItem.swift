@@ -1,7 +1,4 @@
 //
-//  RemoteFeedItem.swift
-//  EssentialFeed
-//
 //  Created by Krishna Ramachandran on 5/10/22.
 //
 
